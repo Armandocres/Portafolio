@@ -1,0 +1,42 @@
+@import '../base/settings';
+@import '../base/base';
+
+.Skills {
+  background-color: $primary;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 250px;
+}
+
+.Skills h2 {
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: $white;
+}
+
+.Skills__icons {
+  text-align: center;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 3.5em;
+}
+
+.tecnologies {
+  font-size: small;
+}
+
+.Skills__icons--tech {
+  padding: 25px;
+}
+
+@media (max-width: 700px) {
+  .Skills {
+    height: 500px;
+  }
+}

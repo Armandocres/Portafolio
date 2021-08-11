@@ -1,0 +1,24 @@
+@import '../base/settings';
+@import '../base/base';
+
+.ProjectsPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.CertificacionesPage {
+  margin-top: 80px;
+}
+
+@media (max-width: 800px) {
+  .ProjectsPage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

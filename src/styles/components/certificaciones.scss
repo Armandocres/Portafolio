@@ -1,0 +1,59 @@
+@import '../base/settings';
+@import '../base/base';
+
+.Certi {
+  width: 40%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.Certi__stats {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.Certi__links {
+  background-color: $primary;
+  border-radius: 15px;
+  height: 30px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.Certi__links a {
+  color: $white;
+  text-decoration: none;
+}
+
+.Certi__figure {
+  width: 450px;
+}
+
+.Certi__figure img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .Certi {
+    width: auto;
+    text-align: left;
+  }
+
+  .Certi__stats {
+    text-align: left;
+  }
+
+  .Certi__links {
+    height: 20px;
+  }
+}

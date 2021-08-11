@@ -1,0 +1,71 @@
+@import '../base/settings';
+@import '../base/base';
+
+.Hero__container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.Hero__figure {
+  width: 150px;
+  margin-top: 5px;
+}
+
+.Hero__figure img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.Hero__container span {
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+.Hero__container p {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.Hero__social {
+  margin: 15px;
+  background-color: $aux;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 15px;
+}
+
+.Hero__social a {
+  color: $white;
+  padding: 15px;
+  margin: 5px;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.Hero__social--redes {
+  color: $white;
+}
+
+@media (max-width: 800px) {
+  .Hero__container {
+    width: 80%;
+  }
+
+  .Hero__social {
+    width: 90%;
+  }
+
+  .Hero__social--redes {
+    font-size: .9em;
+  }
+}
