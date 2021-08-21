@@ -10,8 +10,8 @@ import logo2 from '../images/illustration-your-users.svg';
 import logo3 from '../images/illustration-flowing-conversation.svg';
 import Projects from '../components/Projects';
 import Certificaciones from '../components/Certificaciones';
-import '../styles/page/App.scss';
 import Footer from '../components/Footer';
+import '../styles/page/App.scss';
 
 
 function App() {
@@ -24,11 +24,11 @@ function App() {
       <div className='ProjectsPage' id='Projects'>
         <Projects name='PokeApi' description='Es una aplicaciòn web hecha en react junto con hooks para consumir la
 					API de pokemón. Tiene como objetivo buscar un pokemon en dicha Api. Se
-					realizaron los test con la biblioteca enzyme.' enlace='https://armandocres.github.io/pokeapi/' logo={logo1} />
+					realizaron los test con la biblioteca enzyme.' enlace='https://armandocres.github.io/pokeapi/' logo={logo1} className="color1" />
         <Projects name='GiftExpert' description='Es una aplicación hecha con React y hooks para consumirla API de Giphy.
           Tiene como objetivo traer 10 gifs de alguna categoria.
-          Se implemenatron pruebas con enzyme' enlace='https://armandocres.github.io/react-gifexpertapp/' logo={logo3} />
-        <Projects name='Hospitalito' description='Es una aplicación hecha con React, Hooks y firebase para agendar citas medicas.' enlace='https://github.com/Armandocres/Hospitalito' logo={logo2} />
+          Se implemenatron pruebas con enzyme' enlace='https://armandocres.github.io/react-gifexpertapp/' logo={logo3} className='color2'/>
+        <Projects name='Rick And Morty' description='Es una aplicación hecha con React, Hooks que consume la API de Rick And Morty además de hacer un dark mode con el uso de UseContext' enlace='https://armandocres.github.io/rickandmortyapi/' logo={logo2} className='color3'/>
       </div>
       <div className='CertificacionesPage'>
       <Certificaciones img={cert} desc='Logramos entrar al top 5 de los mejores proyectos dedicados a mejorar
