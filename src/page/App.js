@@ -25,11 +25,11 @@ function App() {
         <Projects name='PokeApi' description='Es una aplicaciòn web hecha en react junto con hooks para consumir la
 					API de pokemón. Tiene como objetivo buscar un pokemon en dicha Api. Se
 					realizaron los test con la biblioteca enzyme.' enlace='https://armandocres.github.io/pokeapi/' logo={logo1} className="color1" />
+        <Projects name='TODO App' description='Es una aplicación hecha con React que tiene como objetivo listar, eliminar y tachar activididades diarias' enlace='https://todo-armandocres.herokuapp.com/' logo={logo1} className='color3' />
         <Projects name='GiftExpert' description='Es una aplicación hecha con React y hooks para consumirla API de Giphy.
           Tiene como objetivo traer 10 gifs de alguna categoria.
           Se implemenatron pruebas con enzyme' enlace='https://armandocres.github.io/react-gifexpertapp/' logo={logo3} className='color2'/>
         <Projects name='Rick And Morty' description='Es una aplicación hecha con React, Hooks que consume la API de Rick And Morty además de hacer un dark mode con el uso de UseContext' enlace='https://armandocres.github.io/rickandmortyapi/' logo={logo2} className='color3' />
-        <Projects name='TODO App' description='Es una aplicación hecha con React que tiene como objetivo listar, eliminar y tachar activididades diarias' enlace='https://todo-armandocres.herokuapp.com/' logo={logo1} className='color3' />
       </div>
       <div className='CertificacionesPage'>
       <Certificaciones img={cert} desc='Logramos entrar al top 5 de los mejores proyectos dedicados a mejorar
