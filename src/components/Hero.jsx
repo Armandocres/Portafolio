@@ -28,7 +28,7 @@ const Hero = () => {
 					<a href="https://github.com/Armandocres">
 						<GoMarkGithub />
 					</a>
-					<a href="https://github.com/Armandocres">
+					<a href="https://www.linkedin.com/in/armandocres/">
 						<AiFillLinkedin />
 					</a>
 				</div>
