@@ -1,5 +1,5 @@
 import React from "react";
-import perfil from "../images/perfil.jpg";
+import perfil from "../images/perfil.png";
 import { GoMarkGithub } from "react-icons/go";
 import { AiFillLinkedin } from "react-icons/ai";
 import "../styles/components/hero.scss";
