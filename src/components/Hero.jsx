@@ -1,6 +1,6 @@
 import React from "react";
 import perfil from "../images/perfil.png";
-import { GoMarkGithub } from "react-icons/go";
+import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import "../styles/components/hero.scss";
 
@@ -26,7 +26,7 @@ const Hero = () => {
 				<div className="Hero__social">
 					<span className="Hero__social--redes">Mis redes sociales: </span>
 					<a href="https://github.com/Armandocres">
-						<GoMarkGithub />
+						<AiFillGithub />
 					</a>
 					<a href="https://www.linkedin.com/in/armandocres/">
 						<AiFillLinkedin />
