@@ -6,7 +6,7 @@ const Footer = () => {
 		<footer className="Footer">
 			<span className="Footer__socials">armandocres99@gmail.com</span>
 			<span className="Footer__socials">
-				<a href="https://drive.google.com/file/d/1cEbTh_q1rtzf-FUSAM0trveZ6rp80j1g/view?usp=sharing">
+				<a href="https://prism-meadow-c82.notion.site/Armando-Cruz-Estanes-b3b9673c5c0b4d81bbe1549eeca3929e">
 					Curriculum
 				</a>
 			</span>
